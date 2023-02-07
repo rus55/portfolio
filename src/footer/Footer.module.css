@@ -1,0 +1,32 @@
+.footerBlock {
+    height: 100vh;
+    background-color: #EBFFE4;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    background-color: #D6D3DA;
+}
+
+.socialContainer {
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}
+
+.square {
+    background-color: #C4C5C2;
+    width: 50px;
+    height: 40px;
+}
+
+.copyright {
+    background-color: #D6D3DA;
+    font-weight: bold;
+    font-size: 16px;
+}
