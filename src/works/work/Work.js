@@ -1,13 +1,17 @@
-import style from './Work.module.css'
+import style from './Work.module.scss'
 
 function Work(props) {
+
     return (
         <div className={style.work}>
-            <div className={style.photo}>
-                <a className={style.button}>Смотреть</a>
+            <div className={style.photo} style={props.style}>
+                {/*<a className={style.button}>Смотреть</a>*/}
+                <button className={style.button}>Смотреть</button>
             </div>
-            <h3 className={style.title}>{props.title}</h3>
-            <span className={style.description}>{props.description}</span>
+            <div className={style.workInfo}>
+                <h3 className={style.title}>{props.title}</h3>
+                <span className={style.description}>{props.description}</span>
+            </div>
         </div>
     );
 }

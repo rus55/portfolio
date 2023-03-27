@@ -1,16 +1,38 @@
 .contactBlock {
-    height: 100vh;
-    background-color: #7691ff;
+    background-color: #252527;
 }
 
 .contactContainer {
     border: 1px solid;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .title {
-    background-color: #DCDADD;
+    color: white;
+   /* background-color: #DCDADD;*/
+}
+
+.content {
+    display: flex;
+}
+
+.contacts {
+
+}
+
+.contacts p {
+    color: white;
+}
+
+.contacts ul > li {
+    color: #05fdd8;
+    list-style-type: none;
+}
+
+.contacts a {
+    color: #05fdd8;
 }
 
 .form {

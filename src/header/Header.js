@@ -6,7 +6,9 @@ function Header() {
     return (
         <div className={style.header}>
             <div className={styleContainer.container}>
-                <Nav/>
+
+                    <Nav/>
+
             </div>
         </div>
     )

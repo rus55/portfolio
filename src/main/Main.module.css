@@ -1,11 +1,12 @@
 .mainBlock {
     height: 100vh;
-    background-color: #ffbc64;
+    background-color: #172523;
 }
 
 .text {
     width: 300px;
-    background-color: darkgrey;
+    color: white;
+    /*background-color: darkgrey;*/
 }
 
 .photo {
