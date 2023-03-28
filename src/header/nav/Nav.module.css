@@ -1,6 +1,5 @@
 .nav {
-    border: 1px solid;
-    width: 500px;
+    width: 600px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,5 +27,8 @@ a:hover {
     transition-timing-function: ease;
 }
 
+@media screen and (max-width: 804px) {
+    .nav{display: none}
+}
 
 

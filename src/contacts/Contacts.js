@@ -32,13 +32,14 @@ function Contacts() {
                         <input placeholder={'Phone'} className={style.input} type='text'/>
 
                         <textarea placeholder={'Message'} className={style.textarea}></textarea>
+                        <div className={style.buttonContainer}>
+                            <button type="submit" className={style.button}>Send</button>
+                        </div>
 
-                        <button type="submit" className={style.button}>Send</button>
                     </div>
+
                 </div>
-                {/*<div>
-                    <button type="submit" className={style.button}>Send</button>
-                </div>*/}
+
             </div>
         </div>
     );

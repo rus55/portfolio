@@ -1,16 +1,23 @@
 .mainBlock {
-    height: 100vh;
     background-color: #172523;
+    padding-top: 79px;
 }
 
 .text {
-    width: 300px;
+    width: 500px;
     color: white;
-    /*background-color: darkgrey;*/
+    margin-left: 110px;
+}
+
+.text p {
+    margin-left: 30px;
+    margin-bottom: 50px;
 }
 
 .photo {
-    width: 300px;
-    height: 400px;
-    background-color: darkgrey;
+    margin-right: 100px;
+}
+
+.photo img {
+    border-radius: 65%;
 }

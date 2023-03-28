@@ -1,5 +1,5 @@
 .footerBlock {
-    background-color: #EBFFE4;
+    background-color: #1F1F20;
 }
 
 .footerContainer {
@@ -8,24 +8,35 @@
 }
 
 .title {
-    background-color: #D6D3DA;
+    color: white;
 }
 
 .socialContainer {
-    border: 1px solid;
     display: flex;
     justify-content: space-between;
-    width: 280px;
+    width: 80%;
+    margin-top: 50px;
 }
 
 .square {
-    background-color: #C4C5C2;
-    width: 50px;
+    width: 80px;
     height: 40px;
 }
 
+.square a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.square img {
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
 .copyright {
-    background-color: #D6D3DA;
+    color: white;
     font-weight: bold;
     font-size: 16px;
+    margin-top: 100px;
 }

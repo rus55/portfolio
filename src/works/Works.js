@@ -15,15 +15,16 @@ function Works() {
         backgroundImage: `url(${todoImage})`,
     };
     return (
-        <div className={style.worksBlock}>
+        <div className={style.worksBlock} id='works'>
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
-                <Title text={'Works'} />
-                {/*<div className={style.title}>
-                    <h2 className={style.title}>Works</h2>
-                </div>*/}
+                <Title text={'Projects'} />
                 <div className={style.works}>
                     <Work style={social} title={'Social Network'} description={'Way of the Samurai'}/>
-                    <Work style={todolist} title={'Blog'} description={'Development Blogddddddddddd dddddddddddddddd dddddddddddddd dddddddddddddd ddddddddddddddd dddddddddd'}/>
+                    <Work style={todolist} title={'Todolist'} description={'Development Blogddddddddddd dddddddddddddddd dddddddddddddd dddddddddddddd ddddddddddddddd dddddddddd'}/>
+                    <Work style={todolist} title={'Educational-game'} description={'Development Blogddddddddddd dddddddddddddddd dddddddddddddd dddddddddddddd ddddddddddddddd dddddddddd'}/>
+                    <Work style={todolist} title={'Personal-blog'} description={'Development Blogddddddddddd dddddddddddddddd dddddddddddddd dddddddddddddd ddddddddddddddd dddddddddd'}/>
+                    <Work style={todolist} title={'Search-movie'} description={'Development Blogddddddddddd dddddddddddddddd dddddddddddddd dddddddddddddd ddddddddddddddd dddddddddd'}/>
+                    <Work style={todolist} title={'Banner-editor '} description={'Development Blogddddddddddd dddddddddddddddd dddddddddddddd dddddddddddddd ddddddddddddddd dddddddddd'}/>
                 </div>
             </div>
         </div>

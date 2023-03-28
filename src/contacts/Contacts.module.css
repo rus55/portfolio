@@ -1,5 +1,7 @@
 .contactBlock {
     background-color: #252527;
+    display: flex;
+
 }
 
 .contactContainer {
@@ -37,10 +39,10 @@
 
 .form {
     min-width: 280px;
-    height: 150px;
-    border: 1px solid;
+
     display: flex;
     flex-direction: column;
+    color: white;
 }
 
 .input {
@@ -55,14 +57,21 @@
     border: none;
 }
 
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .button {
     width: 150px;
     height: 30px;
-    background-color: #939192;
+    background-color: #05fdd8;
     text-align: center;
     border: none;
     font-weight: bold;
     font-size: 16px;
     margin-bottom: 20px;
     margin-top: 20px;
+    color: black;
 }

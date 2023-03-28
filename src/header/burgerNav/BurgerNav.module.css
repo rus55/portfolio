@@ -1,0 +1,51 @@
+/*
+@import '../../common/styles/variables';
+@import '../../common/styles/mixins';
+*/
+
+.burgerNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #000;
+}
+.burgerNavItems {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    transform: translate(0, -450px);
+
+}
+
+.burgerNavItems p {
+    color: white;
+}
+
+.div {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+
+
+.burgerNavItems.show {
+    transform: translate(0, 0);
+    background-color: black;
+    width: 100%;
+}
+.burgerButton {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 80px;
+}
+
+@media screen and (min-width: 805px) {
+    .burgerNav{display: none}
+}
