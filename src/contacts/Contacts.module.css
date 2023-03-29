@@ -13,11 +13,11 @@
 
 .title {
     color: white;
-   /* background-color: #DCDADD;*/
 }
 
 .content {
     display: flex;
+    flex-direction: column;
 }
 
 .contacts {
@@ -75,3 +75,5 @@
     margin-top: 20px;
     color: black;
 }
+
+

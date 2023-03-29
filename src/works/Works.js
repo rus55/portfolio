@@ -15,7 +15,7 @@ function Works() {
         backgroundImage: `url(${todoImage})`,
     };
     return (
-        <div className={style.worksBlock} id='works'>
+        <div className={style.worksBlock} id='projects'>
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
                 <Title text={'Projects'} />
                 <div className={style.works}>

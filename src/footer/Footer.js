@@ -7,7 +7,7 @@ import IconTelegram from '../assets/images/tele.png'
 
 function Footer() {
     return (
-        <div className={style.footerBlock}>
+        <div className={style.footerBlock} >
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
                 {/*<h2 className={style.title}>RUSLAN MITIN</h2>*/}
                 <div className={style.socialContainer}>
