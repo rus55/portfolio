@@ -1,13 +1,14 @@
 import style from './Skill.module.css'
 
-function Skill(props) {
+export const Skill = ({img, title}) => {
     return (
-        <div className={style.skill}>
-            <div className={style.icon}></div>
-            <h3>{props.title}</h3>
-            <span className={style.description}>{props.description}</span>
+        <div className={style.skillContainer}>
+            <div>
+                <img className={style.img} src={img} alt={'skill picture'}/>
+            </div>
+            <div className={style.title}>
+                <p>{title}</p>
+            </div>
         </div>
     );
 }
-
-export default Skill;
