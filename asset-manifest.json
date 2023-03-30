@@ -1,16 +1,38 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c622318d.css",
-    "main.js": "/portfolio/static/js/main.e8b40413.js",
+    "main.css": "/portfolio/static/css/main.78a67391.css",
+    "main.js": "/portfolio/static/js/main.edf696d6.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/socialNetwork.png": "/portfolio/static/media/socialNetwork.186f2e5b40d36315beac.png",
+    "static/media/sauna.png": "/portfolio/static/media/sauna.3abe8d09d00310f189fa.png",
+    "static/media/social.png": "/portfolio/static/media/social.f20ec289de249dcc496b.png",
+    "static/media/todolist.png": "/portfolio/static/media/todolist.a2f26becc83df62b8a00.png",
+    "static/media/photo.png": "/portfolio/static/media/photo.ec95c6a8001f0a84e865.png",
+    "static/media/searchMovie.png": "/portfolio/static/media/searchMovie.3eadd530789c11b69426.png",
+    "static/media/logo_docker.png": "/portfolio/static/media/logo_docker.6301b6cfc8a75c049dd4.png",
+    "static/media/logo_jenkins.png": "/portfolio/static/media/logo_jenkins.3cdf89b1cbb2fb51c5ed.png",
+    "static/media/logo_linux.png": "/portfolio/static/media/logo_linux.b91cb9cc7be9a915521d.png",
+    "static/media/canvas.png": "/portfolio/static/media/canvas.04bd44aa385f4ac16614.png",
+    "static/media/logo_puppeteer.png": "/portfolio/static/media/logo_puppeteer.6589ec0754b931e13087.png",
+    "static/media/logo_sass.png": "/portfolio/static/media/logo_sass.d88b35ea0cc20c28a42a.png",
+    "static/media/logo_jira.png": "/portfolio/static/media/logo_jira.06f7e18c7e01a219932a.png",
+    "static/media/logo_mu.png": "/portfolio/static/media/logo_mu.3a79d87f5a091709ce91.png",
+    "static/media/logo_redux.png": "/portfolio/static/media/logo_redux.d8b76b5a9ec2f49e7bec.png",
+    "static/media/logo_react.png": "/portfolio/static/media/logo_react.32080441a1c85926c3d5.png",
+    "static/media/logo_css3.png": "/portfolio/static/media/logo_css3.e95d94f18ef6e8d4017b.png",
+    "static/media/logo_storybook.png": "/portfolio/static/media/logo_storybook.a90a6609323df97f8dd4.png",
+    "static/media/blog.png": "/portfolio/static/media/blog.f905e3489249fb303c1d.png",
+    "static/media/logo_git.png": "/portfolio/static/media/logo_git.ffb71d2faf759a24cedc.png",
+    "static/media/logo_bitbucket.png": "/portfolio/static/media/logo_bitbucket.2084cadec1cba8522b3f.png",
+    "static/media/logo_axios.png": "/portfolio/static/media/logo_axios.61ae100a4664c138c953.png",
+    "static/media/codewars.png": "/portfolio/static/media/codewars.ea2c30858767087e83a8.png",
+    "static/media/icon_burger.svg": "/portfolio/static/media/icon_burger.c17a0015f9d6c29eacd45ac07e745b7f.svg",
     "index.html": "/portfolio/index.html",
-    "main.c622318d.css.map": "/portfolio/static/css/main.c622318d.css.map",
-    "main.e8b40413.js.map": "/portfolio/static/js/main.e8b40413.js.map",
+    "main.78a67391.css.map": "/portfolio/static/css/main.78a67391.css.map",
+    "main.edf696d6.js.map": "/portfolio/static/js/main.edf696d6.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c622318d.css",
-    "static/js/main.e8b40413.js"
+    "static/css/main.78a67391.css",
+    "static/js/main.edf696d6.js"
   ]
 }
