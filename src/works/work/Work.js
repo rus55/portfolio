@@ -9,7 +9,7 @@ function Work(props) {
                     alt={`project ${props.logo}`}
                     className={style.photo}
                 />
-                <button className={style.button}><a href={props.linkToGHPage}>Look</a></button>
+                <a className={style.link} target="_blank" href={props.linkToGHPage}>Look</a>
             </div>
             <div className={style.workInfo}>
                 <h3 className={style.title}>{props.title}</h3>

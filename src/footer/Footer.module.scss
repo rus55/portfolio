@@ -1,0 +1,38 @@
+.footerBlock {
+    background-color: #1F1F20;
+    .footerContainer {
+        display: flex;
+        flex-direction: column;
+        .socialContainer {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin-top: 50px;
+            .square {
+                width: 80px;
+                height: 40px;
+                a {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    img {
+                        border-radius: 50%;
+                        border: 2px solid white;
+                    }
+                }
+
+            }
+        }
+        .copyright {
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            margin-top: 100px;
+        }
+    }
+}
+
+@media screen and (max-width: 805px) {
+    .square{width: 20%}
+    .copyright{margin-top: 70px}
+}

@@ -1,4 +1,4 @@
-import style from './Header.module.css';
+import style from './Header.module.scss';
 import styleContainer from '../common/styles/Container.module.css'
 import Nav from "./nav/Nav";
 import {BurgerNav} from "./burgerNav/BurgerNav";

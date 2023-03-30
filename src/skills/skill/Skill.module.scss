@@ -8,15 +8,16 @@
     height: 160px;
     background: #ffffff;
     border-radius: 10px;
+    .img {
+        margin-top: 10px;
+        height: 100px;
+    }
+    .title {
+        position: center;
+        margin: -10px;
+        color: #383434;
+    }
 }
 
-.img {
-    margin-top: 10px;
-    height: 100px;
-}
 
-.title {
-    position: center;
-    margin: -10px;
-    color: #383434;
-}
+

@@ -1,0 +1,25 @@
+.fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    .header {
+        height: 80px;
+        background-color: #172523;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        .navContainer {
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            width: 100%;
+        }
+    }
+
+}
+
+
+
+
+

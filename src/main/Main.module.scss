@@ -1,0 +1,28 @@
+.mainBlock {
+    background-color: #172523;
+    padding-top: 79px;
+    .wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        .text {
+            color: white;
+            max-width: 50%;
+        }
+        .photo {
+            img {
+                border-radius: 65%;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 805px) {
+    .wrapper{flex-direction: column-reverse}
+    .text{max-width: 100% !important;}
+}
+
+
