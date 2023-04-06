@@ -1,6 +1,7 @@
 import style from './Contacts.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 import Title from "../common/components/title/Title";
+import Fade from "react-reveal/Fade";
 
 function Contacts() {
     return (
@@ -19,24 +20,27 @@ function Contacts() {
                             </li>
                             <li>+7 (950) 604-68-98</li>
                             <li>
-                                <a href="mailto:frontendenginer@gmail.com" className="">frontendenginer@gmail.com</a>
+                                <a href="mailto:r-mit@mail.ru" className="">r-mit@mail.ru</a>
 
                             </li>
                         </ul>
                     </div>
-                    <div className={style.form}>
 
-                        <p>Or you can leave a request in the form below and I will contact you.</p>
-                        <input placeholder={'Name'} className={style.input} type='text'/>
-                        <input placeholder={'Email'} className={style.input} type='text'/>
-                        <input placeholder={'Phone'} className={style.input} type='text'/>
+                    <Fade bottom>
+                        <div className={style.form}>
 
-                        <textarea placeholder={'Message'} className={style.textarea}></textarea>
-                        <div className={style.buttonContainer}>
-                            <button type="submit" className={style.button}>Send</button>
+                            <p>Or you can leave a request in the form below and I will contact you.</p>
+                            <input placeholder={'Name'} className={style.input} type='text'/>
+                            <input placeholder={'Email'} className={style.input} type='text'/>
+                            <input placeholder={'Phone'} className={style.input} type='text'/>
+
+                            <textarea placeholder={'Message'} className={style.textarea}></textarea>
+                            <div className={style.buttonContainer}>
+                                <button type="submit" className={style.button}>SEND</button>
+                            </div>
+
                         </div>
-
-                    </div>
+                    </Fade>
 
                 </div>
 

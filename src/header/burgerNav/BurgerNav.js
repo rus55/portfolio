@@ -14,8 +14,9 @@ export const BurgerNav = () => {
         {id: 'main', title: 'Home'},
         {id: 'skills', title: 'Skills'},
         {id: 'projects', title: 'Projects'},
-        {id: 'contacts', title: 'Contact'},
+        {id: 'contacts', title: 'Contacts'},
     ]
+
     const onClickHandler = (id) => {
         document.getElementById(id).scrollIntoView({block: "start", behavior: 'smooth'})
         setMenuIsOpen(false)

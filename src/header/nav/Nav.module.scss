@@ -6,10 +6,14 @@
     a {
         color: #05fdd8;
         text-decoration: none;
+        &.active {
+            color: #FF6D05;
+        }
         &:hover {
-            color: #05fdd8;
+            color: #BF6D33;
             text-decoration: underline;
             line-height: 1;
+            cursor: pointer;
         }
         &:last-child {
             border: 1px solid #05fdd8;

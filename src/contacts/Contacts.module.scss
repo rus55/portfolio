@@ -2,7 +2,6 @@
     background-color: #252527;
     display: flex;
     .contactContainer {
-        border: 1px solid;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -45,9 +44,9 @@
                     flex-direction: row;
                     justify-content: center;
                     .button {
-                        width: 150px;
+                        width: 110px;
                         height: 30px;
-                        background-color: #05fdd8;
+                        background-color: white;
                         text-align: center;
                         border: none;
                         font-weight: bold;
@@ -55,6 +54,10 @@
                         margin-bottom: 20px;
                         margin-top: 20px;
                         color: black;
+                        &:hover {
+                            background-color: black;
+                            color: white;
+                        }
                     }
                 }
             }

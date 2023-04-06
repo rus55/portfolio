@@ -8,6 +8,7 @@ import saunaImage from "../assets/images/sauna.png";
 import blogImage from "../assets/images/blog.png";
 import searchMovieImage from "../assets/images/searchMovie.png";
 import bannerEditorImage from "../assets/images/canvas.png";
+import Fade from "react-reveal/Fade";
 
 function Works() {
     const projects = [
@@ -21,7 +22,7 @@ function Works() {
             title: 'Todolist',
             logo: todoImage,
             description: 'SPA to create and further manage the to-do list and its items for the user.',
-            linkToGHPage: ''
+            linkToGHPage: 'https://github.com/rus55/TodoList'
         },
         {
             title: 'Application for kindling the stove',
@@ -50,18 +51,20 @@ function Works() {
     ]
     return (
         <div className={style.worksBlock} id='projects'>
-            <div className={`${styleContainer.container} ${style.worksContainer}`}>
-                <Title text={'Projects'} />
-                <div className={style.works}>
-                    {projects.map( (project, index) => <Work
-                        title={project.title}
-                        logo={project.logo}
-                        description={project.description}
-                        linkToGHPage={project.linkToGHPage}
-                        key={project + index}
-                    /> )}
+            <Fade bottom>
+                <div className={`${styleContainer.container} ${style.worksContainer}`}>
+                    <Title text={'Projects'}/>
+                    <div className={style.works}>
+                        {projects.map((project, index) => <Work
+                            title={project.title}
+                            logo={project.logo}
+                            description={project.description}
+                            linkToGHPage={project.linkToGHPage}
+                            key={project + index}
+                        />)}
+                    </div>
                 </div>
-            </div>
+            </Fade>
         </div>
     );
 }

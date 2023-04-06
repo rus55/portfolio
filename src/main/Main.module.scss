@@ -1,5 +1,5 @@
 .mainBlock {
-    background-color: #172523;
+    background-color: #252527;
     padding-top: 79px;
     .wrapper {
         display: flex;
@@ -10,6 +10,10 @@
         .text {
             color: white;
             max-width: 50%;
+            span {
+                color: #FF6D05;
+                font-size: 26px;
+            }
         }
         .photo {
             img {

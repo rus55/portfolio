@@ -22,6 +22,7 @@ import jenkins from '../assets/icons/logo_jenkins.png'
 import docker from '../assets/icons/logo_docker.png'
 import linux from '../assets/icons/logo_linux.png'
 import materialUi from '../assets/icons/logo_mu.png'
+import Fade from "react-reveal/Fade";
 
 function Skills() {
     const skills = [
@@ -46,12 +47,14 @@ function Skills() {
     ]
     return (
         <div className={style.skillsBlock} id='skills'>
-            <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-                <Title text={'Skills'} />
+            <Fade bottom>
+                <div className={`${styleContainer.container} ${style.skillsContainer}`}>
+                    <Title text={'Skills'}/>
                     <div className={style.skills}>
                         {skills.map(s => <Skill key={s.id} title={s.title} img={s.img}/>)}
                     </div>
-            </div>
+                </div>
+            </Fade>
         </div>
     );
 }
