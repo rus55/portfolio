@@ -16,13 +16,13 @@ function Works() {
             title: 'Social Network',
             logo: socialImage,
             description: 'SPA for social action - messaging between users.',
-            linkToGHPage: 'https://github.com/rus55/samurai-way-main'
+            linkToGHPage: 'https://rus55.github.io/Social-Network/'
         },
         {
-            title: 'Todolist',
+            title: 'Task Manager',
             logo: todoImage,
-            description: 'SPA to create and further manage the to-do list and its items for the user.',
-            linkToGHPage: 'https://github.com/rus55/TodoList'
+            description: 'SPA is a task management app that you can use to manage your time (Written in React, RTK, TS).',
+            linkToGHPage: 'https://rus55.github.io/Task-Manager'
         },
         {
             title: 'Application for kindling the stove',
